@@ -14,7 +14,6 @@ int main() {
 	for(int j=1;j<n;j++){
 		if(arr[i]!=arr[j]){
 			arr[++i]=arr[j];
-			
 		}
 	}
 	for(int j=0;j<i+1;j++){
