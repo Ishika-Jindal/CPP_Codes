@@ -10,10 +10,9 @@ int main(){
 		cin>>a;
 		v.push_back(a);
 	}
-	int mx=*max_element(v.begin(),v.end());
-	cout<<mx<<endl;
+	int max=*max_element(v.begin(),v.end());
 	for(auto &i:v){
-		if(i+ext >=mx)
+		if(i+ext >=max)
 		//	vec.push_back(true);
 			cout<<"true"<<" ";
 		else
