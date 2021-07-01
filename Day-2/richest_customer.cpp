@@ -16,6 +16,7 @@ int richest(vector<vector<int>> &acc,int n,int m){
 	}
 	return cust;
 }
+
 int main() {
 	int n,m;
 	int a;
